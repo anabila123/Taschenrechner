@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Calculator {
     private final ArrayList<String> inputBuffer;
     private final DecimalFormat df;
-    public JFrame frame;
+    private JFrame frame;
     private JPanel panel;
     private JTextField textField;
     private JButton[] numButtons;
